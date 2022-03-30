@@ -1,4 +1,4 @@
-# V2
+# V2 on heroku
 
 **若需部署 V2 VLESS，请转到 [vless](https://github.com/bclswl0827/v2ray-heroku/tree/vless) 分支。**
 
