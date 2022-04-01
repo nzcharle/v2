@@ -5,8 +5,6 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v2ray1, server: 104.16.144.152, port: 443, type: vmess, uuid: 10b15f01-c145-4547-9441-530962e34285, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/takedoccp", headers: {Host: usboclub.cf}}}
-  - {name: v2ray2, server: 104.20.133.113, port: 443, type: vmess, uuid: 10b15f01-c145-4547-9441-530962e34285, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/takedoccp", headers: {Host: usboclub.cf}}}
   - {name: v2ray, server: 173.82.78.200, port: 443, type: vmess, uuid: 94e59cc4-232b-40b9-ba27-2bcd19a44af7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: "/2xv6qE1YbN", headers: {Host: destiny.gq}}}
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,v2ray
