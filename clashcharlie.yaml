@@ -22,7 +22,6 @@ rules:
  - IP-CIDR6,fc00::/7,v2ray,no-resolve
  - IP-CIDR6,fe80::/10,v2ray,no-resolve
  - IP-CIDR6,fd00::/8,v2ray,no-resolve
- - DOMAIN,instant.arubanetworks.com,v2ray
  - DOMAIN,setmeup.arubanetworks.com,v2ray
  - DOMAIN,router.asus.com,v2ray
  - DOMAIN-SUFFIX,hiwifi.com,v2ray
