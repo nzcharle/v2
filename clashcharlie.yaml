@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v2ray, server: 173.82.78.200, port: 443, type: vmess, uuid: d70db4ec-c25d-43c4-91a8-382a8cc42737, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/2xv6qE1YbN", headers: {Host: destiny.gq}}}
+  - {name: v2ray, server: 173.82.78.200, port: 443, type: vmess, uuid: 3e5033cd-6390-4fcc-8388-96f35fc2b6b3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/2xv6qE1YbN", headers: {Host: destinynzz.uk.eu.org}}}
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,v2ray
  - DOMAIN-SUFFIX,ip6-localhost,v2ray
