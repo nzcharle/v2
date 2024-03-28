@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: v2ray, server: 107.173.15.112, port: 443, type: vmess, uuid: db9953b5-3284-4957-a894-11e188380414, alterId: 0, cipher: auto, tls: true, allowinsecure: true, network: ws, ws-opts: {path: "/takedoccp", headers: {Host: usboclub.cf}}}
+  - {name: v2ray, server: 107.173.15.112, port: 443, type: vmess, uuid: db9953b5-3284-4957-a894-11e188380414, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: "/takedoccp", headers: {Host: usboclub.cf}}}
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,v2ray
  - DOMAIN-SUFFIX,ip6-localhost,v2ray
